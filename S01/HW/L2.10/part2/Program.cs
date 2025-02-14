@@ -39,7 +39,7 @@ class Program
     static void Main(string[] args)
     {
         double precision = 0.000001;
-        int x = 2;
+        int x = 1;
         Console.WriteLine(Exp1(x,precision));
     }
 }

@@ -11,17 +11,17 @@ class Program
         return x;
     }
 
- public static string Near(double x, double y, double closeness) 
-{
-    double max = 0;
-    if(AbsValue(x)>AbsValue(y))
-        max  = AbsValue(x);
-    else
-        max = AbsValue(y);
-    if(AbsValue(x - y) <= closeness * max)
-        return "True";
-    return "False";
-}
+    public static string Near(double x, double y, double closeness) 
+    {
+        double max = 0;
+        if(AbsValue(x)>AbsValue(y))
+            max  = AbsValue(x);
+        else
+            max = AbsValue(y);
+        if(AbsValue(x - y) <= closeness * max)
+            return "True";
+        return "False";
+    }
     static void Main(string[] args)
     {
     double x = 5.0;

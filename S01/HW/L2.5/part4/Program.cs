@@ -4,12 +4,19 @@ class Program
 {
     public static void Factorial(int n)
     {
-        long result = 1;
-        for(int i=1 ;i<=n ; i++)
+        if(n<0)
         {
-            result = result * i;
+            Console.WriteLine("none");
         }
-    Console.WriteLine(result);
+        else
+        {
+            long result = 1;
+            for(int i=1 ;i<=n ; i++)
+            {
+                result = result * i;
+            }
+            Console.WriteLine(result);
+        }
 }
     static void Main(string[] args)
     {
