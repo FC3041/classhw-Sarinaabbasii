@@ -71,7 +71,7 @@ int main()
     }
     else
     {
-        Point p3(3,3)
+        Point p3(3,3);
     }
 }
 
