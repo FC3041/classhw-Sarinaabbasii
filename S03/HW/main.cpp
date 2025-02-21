@@ -83,6 +83,7 @@ int main()
     }
     s.list_courses();
     
+    
     cout << "GPA : "<< s.GetGPA() << endl;
     delete s2;
     delete[] pn;
